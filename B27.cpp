@@ -1,4 +1,4 @@
-//27. Ð?m t? trong chu?i: Vi?t chuong trình d?m s? t? trong m?t chu?i ký t?.
+
 #include<stdio.h>
 #include<string.h>
 int main()
