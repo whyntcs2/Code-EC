@@ -4,29 +4,25 @@
 
 int main() {
     char str[100];
-    int trai, phai, ok;
+    int tr, ph, oke;
    gets(str);
-    int len = strlen(str);
-    trai = 0;
-    phai = len - 1;
-    ok = 1;
-
-    while (trai < phai) {
-        if (str[trai] != str[phai]) 
+    int lenz = strlen(str);
+    tr = 0;
+    ph = lenz - 1;
+    oke = 1;
+    while (tr < ph) {
+        if (str[tr] != str[ph]) 
 		{
-            ok = 0;
+            oke = 0;
             break;
         }
-        trai++;
-        phai--;
+        tr++;
+        ph--;
     }
-
-    if (ok) {
+    if (oke) {
         printf("dx");
     } else {
         printf("kdx");
     }
-
-    return 0;
 }
 
