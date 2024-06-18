@@ -1,4 +1,4 @@
-//23. Chu?i d?i x?ng: Ki?m tra xem m?t chu?i ký t? có ph?i là chu?i d?i x?ng (palindrome) hay không.
+
 #include <stdio.h>
 #include <string.h>
 
